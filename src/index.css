@@ -16,6 +16,10 @@ body {
 #app {
   min-height: 100vh;
 }
+.center {
+  margin: auto;
+  display: block;
+}
 
 ul {
   list-style: none;

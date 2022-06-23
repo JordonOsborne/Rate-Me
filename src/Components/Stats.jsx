@@ -4,7 +4,7 @@ import Feedback from "../Context/Feedback"
 function Stats() {
   const { feedback } = useContext(Feedback)
   const Reviews = feedback.length
-  let Sum = feedback.reduce((a, b) => a + b.rating, 0)
+  let Sum = feedback.reduce((a, b) => parseInt(a) + parseInt(b.rating), 0)
   const Average = (Sum / Reviews).toFixed(1).replace(/[.,]0$/, "")
   return (
     <div className='feedback-stats'>
