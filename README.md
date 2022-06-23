@@ -17,7 +17,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-The 'Mock Backend' using JSON Server runs on [http://localhost:5000/feedback](http://localhost:5000). Examples of JSON Server API's can be found at [https://www.npmjs.com/package/json-server#routes](JSON Server | Routes Section).
+The 'Mock Backend' using JSON Server runs on [http://localhost:5000](http://localhost:5000/feedback). Examples of JSON Server API's can be found at [JSON Server | Routes Section](https://www.npmjs.com/package/json-server#routes).
 
 ### `npm run build`
 
